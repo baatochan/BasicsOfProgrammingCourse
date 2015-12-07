@@ -24,7 +24,7 @@ int main()
         if(x>=0 && x<=9) s2.push(x);
     }
     while (x>=0 && x<=9);
-    stack<int> s3;
+    stack<char> s3;
     char r = 0;
     char a,b,s;
     while (!s1.empty()||!s2.empty()||r==1){
