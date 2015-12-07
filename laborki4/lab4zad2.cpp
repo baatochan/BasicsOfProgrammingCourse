@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstring>
 
 using namespace std;
 
@@ -22,6 +23,7 @@ int main()
     for(int i=0; i<n;i++){
         for (int j=0;j<n-i-1;j++){
             if(((*tabp[j]).compare(*tabp[j+1]))>0){
+            //if(strcmp(*tabp[j],*tabp[j+1])>0){
                 buf = tabp[j];
                 tabp[j]=tabp[j+1];
                 tabp[j+1]=buf;
