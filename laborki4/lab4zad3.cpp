@@ -23,22 +23,6 @@ int main()
         if(x>=0 && x<=9) s2.push(x);
     }
     while (x>=0 && x<=9);
-    /*cout<<"Podawaj po kolei kolejne cyfry pierwszej liczby, zaczynajac od lewej strony, ktora chcesz dodac. Gdy liczba sie skonczy podaj dowolna litere."<<endl;
-    do {
-        cout<<"Podaj cyfre: ";
-        cin>>x;
-        x -=48;
-        if(x>=0 && x<=9) s1.push(x);
-    }
-    while (x>=0 && x<=9);
-    cout<<"Podawaj po kolei kolejne cyfry drugiej liczby, zaczynajac od lewej strony, ktora chcesz dodac. Gdy liczba sie skonczy podaj dowolna litere."<<endl;
-    do {
-        cout<<"Podaj cyfre: ";
-        cin>>x;
-        x-=48;
-        if(x>=0 && x<=9) s2.push(x);
-    }
-    while (x>=0 && x<=9);*/
     stack<char> s3;
     char r = 0;
     char a,b,s;
