@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstring>
+#inclue <ctype>
 
 using namespace std;
 
@@ -22,7 +23,7 @@ int main()
     string* buf;
     for(int i=0; i<n;i++){
         for (int j=0;j<n-i-1;j++){
-            if(((*tabp[j]).compare(*tabp[j+1]))>0){
+            if(((tolower(*tabp[j])).compare(tolower(*tabp[j+1]))>0){
             //if(strcmp(*tabp[j],*tabp[j+1])>0){
                 buf = tabp[j];
                 tabp[j]=tabp[j+1];
